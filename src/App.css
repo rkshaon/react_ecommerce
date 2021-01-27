@@ -36,3 +36,10 @@
 .featured-image{
   float: right;
 }
+/* best seller */
+.bestseller-image{
+  display: flex;
+}
+.image-container{
+  width: 33%;
+}
