@@ -1,6 +1,8 @@
+/* app */
 .app{
   background-color: #FFFFFF;
 }
+/* navbar */
 .navbar-container{
   background-color: #FBFCF9;
 }
@@ -21,5 +23,16 @@
   float: left;
 }
 .navbar-addres{
+  float: right;
+}
+/* banner */
+/* featured */
+.featured-container{
+  display: flex;
+}
+.featured-text{
+  float: left;
+}
+.featured-image{
   float: right;
 }

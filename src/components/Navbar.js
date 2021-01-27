@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function Nav() {
+function Navbar() {
 
   return(
     <div className="navbar-container">
@@ -30,4 +30,4 @@ function Nav() {
   )
 }
 
-export default Nav;
+export default Navbar;
