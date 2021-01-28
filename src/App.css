@@ -1,3 +1,12 @@
+/* general */
+.text-white{
+  color: #fff;
+}
+.content-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* app */
 .app{
   background-color: #FFFFFF;
@@ -8,6 +17,13 @@
 }
 .navbar-top{
   background-color: #7E7D71;
+}
+.navbar-top p{
+  padding-right: 5px;
+  font-size: 13px;
+}
+.navbar-top a{
+  font-size: 13px;
 }
 .navbar-title{
   float: left;

@@ -5,8 +5,8 @@ function Navbar() {
   return(
     <div className="navbar-container">
       <div className="navbar">
-        <div className="navbar-top">
-          The cocoon is bank. <a href="">SHOP NOW</a>
+        <div className="navbar-top text-white content-center">
+          <p>The cocoon is bank.</p><a href="" className="text-white">SHOP NOW</a>
         </div>
         <div className="navbar-title">
           Jenni Kayne

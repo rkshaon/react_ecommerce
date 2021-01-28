@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 function Featured() {
 
   return(
-    <div className="featured-container">
+    <div className="featured-container content-center">
       <div className="featured-text">
         <h3><a href="">The Best is Black</a></h3>
         <p> Everyone's favorite sweater is now back in stock. Shop the Fisherman in cashmere and cotton before it's gone once again.</p>

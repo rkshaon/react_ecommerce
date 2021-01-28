@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 
-function BestSeller() {
+function GetAll() {
 
   return(
     <div className="bestseller-container">
       <div className="bestseller-header">
-        <h3 className="BestSeller-title">The Best is Black</h3>        
+        <h3 className="BestSeller-title">Get All</h3>
       </div>
       <div className="bestseller-image">
         <div className="image-container">
@@ -22,4 +22,4 @@ function BestSeller() {
   )
 }
 
-export default BestSeller;
+export default GetAll;

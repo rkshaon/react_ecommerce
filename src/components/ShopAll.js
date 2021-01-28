@@ -3,11 +3,18 @@ import React, { useState, useEffect } from 'react';
 function ShopAll() {
 
   return(
-    <div className="shopall-container">
-      <div className="">
-        <h3 class="">shop all</h3>
+    <div className="bestseller-container">
+      <div className="bestseller-header">
+        <h3 className="BestSeller-title">shop all</h3>
       </div>
-      <img src="https://s3.amazonaws.com/jenni-kayne/media/cmsimage/9413/desktop/Jenni_Kayne-Home-Bedroom.jpg" alt="banner" />
+      <div className="bestseller-image">
+        <div className="image-container">
+          <img src="https://s3.amazonaws.com/jenni-kayne/media/cmsimage/9418/standard/Jenni_Kayne-Slippers-2.jpg" />
+        </div>
+        <div className="image-container">
+          <img src="https://s3.amazonaws.com/jenni-kayne/media/cmsimage/9417/standard/Jenni_Kayne-Home-Furniture-1.jpg" />
+        </div>
+      </div>
     </div>
   )
 }
