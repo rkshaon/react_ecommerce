@@ -5,18 +5,45 @@ function BestSeller() {
   return(
     <div className="bestseller-container">
       <div className="bestseller-header">
-        <h3 className="BestSeller-title">The Best is Black</h3>        
+        <h3 className="BestSeller-title">Best Sellers</h3>        
       </div>
       <div className="bestseller-image">
-        <div className="image-container">
-          <img src="https://dygk1aj3dwrbt.cloudfront.net/media/products/6292/listing/Jenni_Kayne_Cashmere_Fisherman_Heather_Taupe.jpg?1572376014" />
-        </div>
-        <div className="image-container">
-          <img src="https://dygk1aj3dwrbt.cloudfront.net/media/products/7483/listing/Jenni-Kayne-CedarStump3.jpg?1586541543" />
-        </div>
-        <div className="image-container">
-          <img src="https://dygk1aj3dwrbt.cloudfront.net/media/products/5764/listing/Jenni_Kayne_Suede_Moc_Clog_Natural.jpg?1569353784" />
-        </div>
+        <a href="">
+          <div className="image-container">
+            <div className="image-inner-container">
+              <img src="https://dygk1aj3dwrbt.cloudfront.net/media/products/6292/listing/Jenni_Kayne_Cashmere_Fisherman_Heather_Taupe.jpg?1572376014" />
+              <div className="overlay">
+                <div className="text">
+                  <ul className="navbar-item">
+                    <li className="navbar-link">xxs</li>
+                    <li className="navbar-link">xs</li>
+                    <li className="navbar-link">s</li>
+                    <li className="navbar-link">m</li>
+                    <li className="navbar-link">l</li>
+                    <li className="navbar-link">xl</li>
+                    <li className="navbar-link">xxl</li>
+                  </ul>
+                  <p className="size-selector">SELECT SIZE</p>
+                </div>
+              </div>
+            </div>
+            <div className="sellers-text">
+              <h5 className="text-top">jenny kayne <span className="currency">$445.0</span></h5>
+              <p className="text-head">Cashmere Cocoon Cadigan</p>
+              <p className="text-bottom">Ivory -- more colors</p>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div className="image-container">
+            <img src="https://dygk1aj3dwrbt.cloudfront.net/media/products/7483/listing/Jenni-Kayne-CedarStump3.jpg?1586541543" />
+          </div>
+        </a>
+        <a href="">
+          <div className="image-container">
+            <img src="https://dygk1aj3dwrbt.cloudfront.net/media/products/5764/listing/Jenni_Kayne_Suede_Moc_Clog_Natural.jpg?1569353784" />
+          </div>
+        </a>
       </div>
     </div>
   )
