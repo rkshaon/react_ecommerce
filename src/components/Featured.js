@@ -4,7 +4,7 @@ function Featured() {
 
   return(
     <div className="featured-container content-center">
-      <div className="featured-text">
+      <div className="featured-text text-center">
         <h3><a href="">The Best is Black</a></h3>
         <p> Everyone's favorite sweater is now back in stock. Shop the Fisherman in cashmere and cotton before it's gone once again.</p>
         <button>shop now</button>
