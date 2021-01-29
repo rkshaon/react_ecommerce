@@ -11,7 +11,9 @@ function ShopBedroom() {
         <h1>“These are the pieces you’ll love coming home to. Let us help you design the space of your dreams.”</h1>
         <img src="https://www.jennikayne.com/dist/assets/temp/jk-signature.png" alt="image" />
       </div>
-      <img src="https://s3.amazonaws.com/jenni-kayne/media/cmsimage/9413/desktop/Jenni_Kayne-Home-Bedroom.jpg" alt="banner" />
+      <div className="shopall-image">
+        <img src="https://s3.amazonaws.com/jenni-kayne/media/cmsimage/9415/desktop/Jenni_Kayne-Home-Blankets-1.jpg" alt="banner" />
+      </div>
       <h1>You can never have too many pillows and throws. Made for mixing and matching with ease, our handcrafted textiles are what every room needs.</h1>
     </div>
   )
